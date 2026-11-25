@@ -2,9 +2,12 @@
 name: Build Test Deploy
 
 on:
+   workflow_dispatch: 
   push:
     branches:
       - main
 
 env:
   DEPLOY_ENV: production
+  
+jobs: 
