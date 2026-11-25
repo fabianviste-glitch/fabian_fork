@@ -11,3 +11,10 @@ env:
   DEPLOY_ENV: production
   
 jobs: 
+   build:
+   name: Build and Cache Dependencies
+   runs-on: ubuntu-24.04
+steps:
+   name: Checkout
+   uses: actions/checkout@v4 1.0
+   
