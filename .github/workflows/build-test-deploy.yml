@@ -1,1 +1,10 @@
 
+name: Build Test Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  DEPLOY_ENV: production
